@@ -1,0 +1,14 @@
+/** Global Styles **/
+body {
+    background-image: ulr('../images/dust_scratches.png')!important;
+}
+
+.contact-icon{ 
+    width:55px;
+    display: inline;
+}
+
+ .contact-listItem {
+    display: inline;
+    padding:3%;
+}
