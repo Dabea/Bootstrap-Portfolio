@@ -29,6 +29,11 @@ body {
 .contact-listItem {
     display: inline;
     padding:3%;
+    list-style-type: none;
+}
+
+ul{
+    list-style: none;
 }
 
 /** Stikcy Footer Styles **/
