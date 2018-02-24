@@ -18,8 +18,9 @@ body {
 
 /** Contact Area **/
 .contact-icon { 
-    width:55px;
+    width:40px;
     display: inline;
+    list-style: none;
 }
 
 .contact-content {
@@ -28,12 +29,16 @@ body {
 
 .contact-listItem {
     display: inline;
+<<<<<<< HEAD
     padding:3%;
     list-style-type: none;
 }
 
 ul{
     list-style: none;
+=======
+    padding:1%;
+>>>>>>> 6bb1e3457be5cd48a0098d210ebbfa44c166b6c9
 }
 
 /** Stikcy Footer Styles **/
