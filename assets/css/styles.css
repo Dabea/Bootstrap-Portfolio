@@ -39,6 +39,12 @@ ul{
     list-style: none;
 }
 
+.contact-area{
+    padding: 25px;
+    border-radius: 10px;
+    border:2px solid #dddddd;
+}
+
 /** Stikcy Footer Styles **/
 .wrap {
   min-height: 100%;
@@ -63,18 +69,7 @@ ul{
 
 }
 
-
-
  .navbar-header .navbar-brand {
     color: #ffffff;
    
 }
-
-
-.m0 {
-    margin:0px;
-}
-
- p0 {
-     padding:0px;
- }

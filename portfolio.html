@@ -4,26 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Document</title>
 </head>
-<body style="background:#333">
-    <div class="container">
-        <div  class="col-md-8">123
-            <div class="content" style="background: #fff" > abcdefg</div>
-        </div>
-            
-        <div  class="col-md-4">456
-            <div style="background:purple">
-                <ul>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
+<body class="backimg " >
+    <div class="wrap">
+    <!-- Masthead Start -->
+    <nav class="navbar navbar-default">
+        <div class="container" >
+            <div style="padding-left:15px;">
+                <div class="navbar-header" ><a href="index.html" class="navbar-brand">Abraham Anderson</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navbar-list " ><a href="index.html" >  About </a> </li>
+                    <li class="navbar-list active" > <a href="#" >  Portfolio </a> </li>
+                    <li class="navbar-list" > <a href="contact.html" >  Contact </a> </li>
                 </ul>
             </div>
+        </div>    
+    </nav> <!-- Masthead End -->
+    <!-- Main Conainter Start -->
+    <div class="container" >
+        <div class="col-xs-12 col-md-9 "  style="margin-left:0px;" > 
+            <div class="content-area well well-sm">
+                <h2 class="h2-underline" >About</h2> 
+                <div class="media" style="margin-right:5px;" >
+                    <div style="float:left; padding:16px;" class="col-sm-6 col-lg-8 col-xs-12" >
+                            <img src="./assets/images/abe.jpg" class="img-responsive "  alt="Picture of Abraham Anderson">
+                    </div>
+                    <div >
+                        <p>Mollit pariatur proident esse ullamco incididunt incididunt irure sint sint. Do id deserunt exercitation officia. Adipisicing ea do tempor reprehenderit eiusmod laborum non mollit Lorem tempor. Minim nisi mollit eu id mollit adipisicing. Consequat laboris cillum voluptate do tempor est Lorem amet sit reprehenderit commodo occaecat.</p>
+                        <p>Et adipisicing id reprehenderit excepteur anim culpa esse dolor amet ut sint duis. In Lorem aliquip magna veniam laborum ullamco ad veniam. Occaecat veniam proident exercitation deserunt nulla ut. Ipsum consequat tempor excepteur cupidatat ut nulla occaecat et. Voluptate in consectetur cillum cupidatat aliquip amet occaecat voluptate cupidatat.</p>
+                    </div>
+                </div>
+            </div>    
 
         </div>
+        <div class="col-md-3 col-xs-12 " >
+            <div class="content-area well well-sm " style="padding:5px"  >
+                <h2 class="text-center h2-underline h3"  >Connect With Me</h2>
+                <ul class="col-xs-12 ">
+                    <li class="col-xs-4 " ><a href="http://github.com/dabea"> <img class="" style="width:40px;"  src="assets/images/github.png" alt="github icon"></a></li>
+                    <li class="col-xs-4" ><a href="http://linkedin.com/abraham">  <img class="" style="width:40px;" src="assets/images/linkedin.png" alt="linkedin icon"></a></li>
+                    <li class="col-xs-4" ><a href="http://stackoverflow.com">  <img class="" style="width:40px;" src="assets/images/stackoverflow.png" alt="stackoverflow icon"></a></li>
+                </ul>
+            </div>    
+        </div>
     </div>
+</div>
+
+    <footer class="footer" style="background:#333">
+        <div class="container"> &copy;Abraham Anderson</div>
+       
+    </footer>
 </body>
 </html>
